@@ -36,13 +36,13 @@ After this process, Restart the services
 2.systemctl restart docker.service
 Now we need to export DOCKER_HOST. Use command
 
-1.@export DOCKER_HOST=<your IP address>:<port you assigned>
-2.[echo $DOCKER_HOST]
+1.export DOCKER_HOST=<your IP address>:<port you assigned>
+2.echo $DOCKER_HOST
 Now we need to setup Docker Cloud on Jenkins. Before that we need to download some plugins on Jenkins
 
-1.[DOCKER]
-2.[GITHUB]
-3.[WORKSPACE CLEANUP]
+**1.DOCKER
+2.GITHUB
+3.WORKSPACE CLEANUP**
 Now to setup Docker cloud on Jenkins. Go to following section.
 
 Manage Jenkins > Manage Nodes and Clouds > Configure Clouds > Add a new cloud
@@ -83,9 +83,9 @@ Config file used in Dockerfile 1 for kubectl
 
 Now we will add Docker template in the Docker Cloud settings. In Docker template we need to give a label which we will use during configuration of Job 2 and we need to give right path of our Dockerfile 1. In container settings we need to give right path of the config file which is present in your RHEL.
 
-[Container Settings > Volumes]
+**Container Settings > Volumes**
 
-[/root/task3:/root/.kube/]
+**/root/task3:/root/.kube/**
 
 **Right side is the path where we have mounted config file that is to be used in Docker container. Left side is the path where we have mounted config file in RHEL.
 
