@@ -13,3 +13,7 @@
 4.Jenkins
 
 5.Kubernetes (Should be configured on Windows and RHEL)
+
+We will start by creating a repository on GitHub. We will use web-hook in GitHub so that whenever developer pushes any update, Job 1 will automatically starts building on Jenkins
+
+
