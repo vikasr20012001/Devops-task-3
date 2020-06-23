@@ -37,9 +37,9 @@ After this process, Restart the services
 
 Now we need to export DOCKER_HOST. Use command
 
-**1.export DOCKER_HOST=<your IP address>:<port you assigned>**
+1.export DOCKER_HOST=<your IP address>:<port you assigned>
 
-**2.echo $DOCKER_HOST**
+2.echo $DOCKER_HOST**
 
 Now we need to setup Docker Cloud on Jenkins. Before that we need to download some plugins on Jenkins
 
@@ -108,7 +108,7 @@ It will use label which we have created on Docker cloud.
 
 To check whether kubectl is configured properly or not, We will use command "kubectl --help" and then we will write the code which will help in creating new deployment.
 
-**Before running this job, Make sure to start minikube from windows command line and kubectl should be properly configured on RHEL and make sure you have good internet speed.
+Before running this job, Make sure to start **minikube** from windows command line and kubectl should be properly configured on RHEL and make sure you have good internet speed.
 
 
 ## Output of JOB 2:
