@@ -32,11 +32,11 @@ Here 0.0.0.0 means that you can denote it with any IP given to the DOCKER HOST a
 
 After this process, Restart the services
 
-1.[systemctl daemon-reload
-2.[systemctl restart docker.service
+1.systemctl daemon-reload
+2.systemctl restart docker.service
 Now we need to export DOCKER_HOST. Use command
 
-1.[export DOCKER_HOST=<your IP address>:<port you assigned>]
+1.@export DOCKER_HOST=<your IP address>:<port you assigned>
 2.[echo $DOCKER_HOST]
 Now we need to setup Docker Cloud on Jenkins. Before that we need to download some plugins on Jenkins
 
