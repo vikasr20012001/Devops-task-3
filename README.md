@@ -24,7 +24,7 @@ Now we have to build a docker image which will have Kubernetes installed and run
 
 ![2](https://user-images.githubusercontent.com/66811679/85365115-eae8fb80-b4e1-11ea-8fd8-dacf11a62375.PNG)
 
-We need to allow Docker daemon to be accessed remotely. Since docker is isolated. For that we need to edit /usr/lib/systemd/system/docker.service.
+We need to allow Docker daemon to be accessed remotely. Since docker is isolated. For that we need to edit  (/usr/lib/systemd/system/docker.service.)
 
 Here 0.0.0.0 means that you can denote it with any IP given to the DOCKER HOST and you can assign this IP with any available port.
 
