@@ -5,7 +5,11 @@
 ## PREREQUISITE:
 
 1.RHEL 8 (GUI/CLI)
+
 2.Docker-CE
+
 3.Git
+
 4.Jenkins
+
 5.Kubernetes (Should be configured on Windows and RHEL)
