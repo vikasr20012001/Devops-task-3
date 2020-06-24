@@ -38,7 +38,7 @@ After this process, Restart the services
 
 Now we need to export DOCKER_HOST. Use command
 
-1.export DOCKER_HOST
+1.export DOCKER_HOST =<your IP address>:<port you assigned>
 
 2.echo $DOCKER_HOST
 
