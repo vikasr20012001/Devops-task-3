@@ -39,7 +39,7 @@ Now we need to export DOCKER_HOST. Use command
 
 1.export DOCKER_HOST=<your IP address>:<port you assigned>
 
-2.echo $DOCKER_HOST**
+2.echo $DOCKER_HOST
 
 Now we need to setup Docker Cloud on Jenkins. Before that we need to download some plugins on Jenkins
 
