@@ -84,7 +84,8 @@ The files used in Job 1 are present in this GitHub repository.
 Config file used in Dockerfile 1 for kubectl
 
 
-![9](https://user-images.githubusercontent.com/66811679/85371605-c1ce6800-b4ed-11ea-8b75-07db9282b161.png)
+![9](https://user-images.githubusercontent.com/66811679/85511857-7df36580-b5b6-11ea-8c62-a8a396b69d93.png)
+
 
 
 
